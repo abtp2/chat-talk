@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<link rel="stylesheet" href="index.css">
+				<link rel="stylesheet" href="icon.css">
+				<title>AI Example</title>
+</head>
+<body>
+<!-- Details form -->
+<div id="details" class="">
+  <h1>Chat&Talk</h1>	  
+  <form id="form">
+  <input type="text" id="username" placeholder="Enter your name" required>
+  <input type="submit" value="&#8594">
+  </form>			
+  <p>* This is not an AI, its only the example how an AI works and look like. *</p>
+</div>
+
+<!-- sidebar -->
+<div id="sidebar">
+	 <div id="side-head">
+	 		<img src="logo.jpg">
+	 		<i id="close" class="rc-icon">close</i>	 		
+	 </div>
+	 <p onclick="window.location='index.html'"><i class="rc-icon">home</i>Home</p>
+	 <p onclick="window.location='chat.html'"><i class="rc-icon">chat</i>Chat</p>
+	 <p onclick="window.location='talk.html'"><i class="rc-icon">volume_up</i>Talk</p>
+	 <p onclick="window.location='https://ashutoshpandey.netlify.app'"><i class="rc-icon">person</i>About me</p>
+	 <p><i class="rc-icon">call</i>Contact me</p>
+</div>
+
+
+
+
+<!-- main section -->
+<section id="main">
+<div id="header">
+		<div id="nav">
+	    <i class="rc-icon" id="menu">menu</i>
+    	 <h1>Chat&Talk</h1>
+    	 <div id="toggler">
+	 	  	<div></div>
+	    </div>
+	 </div>
+	 
+	 <div id="choose">
+	 	<h2 id="chat">Chat</h2>
+	 	<h2 id="talk">Talk</h2>
+	 </div>
+</div>
+
+
+<!-- first card -->
+<div id="card1">
+	<div id="content">
+		<p>Here, you will able to chat with a AI bot assistant. You can chat some easy questions of our daily life.</p>
+	</div>	
+	<div id="action" onclick="window.location='chat.html'">
+	 <h1>Go to chat</h1>	
+	 <button>&#8594</button>
+	</div>	
+</div>
+<!-- second card -->
+<div id="card2">
+	<div id="content">
+		<p>Here, you will able to talk with a AI bot assistant. You can asks some easy questions of our daily life.</p>
+	</div>	
+	<div id="action" onclick="window.location='talk.html'">
+	 <h1>Go to talk</h1>	
+	 <button>&#8594</button>
+	</div>	
+</div>
+
+
+
+
+</section>
+<script src="index.js"></script>			
+</body>
+</html>

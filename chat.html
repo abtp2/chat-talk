@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+				<link rel="stylesheet" href="chat.css">
+				<link rel="stylesheet" href="icon.css">
+				<title>chat-bot</title>
+</head>
+<body class="dark-theme">
+<audio id="sound">
+		<source src="send (mp3cut.net).mp3">
+</audio>
+
+
+<!-- nav -->
+<div id="nav">
+	<h1 onclick="window.location='index.html'">&#8592</h1>
+	<span>
+			<img src="bot.png">
+			<p>Chat-bot</p>
+	</span>
+</div>
+
+
+<!-- chatting box -->
+<div id="chat">
+<div id="dates"></div>
+  <div id="bot-reply">
+  <p>Hello <span id="user-name"></span> 👋🏻, you can talk to me by typing below</p>
+  </div>
+  
+  
+</div>		
+
+
+
+
+
+
+<div id="typer">
+	<form id="form">
+	<input type="text" id="int-main" placeholder="Type your message...">
+	<button id="send"><h1 class="rc-icon">send</h1></button>
+	</form>
+</div>	
+
+
+
+
+
+<script src="chat.js"></script>	
+</body>
+</html>
