@@ -38,6 +38,7 @@ box-sizing: border-box;
 body{
 user-select: none;
 background: var(--bg);
+font-family: Arial;
 }
 img{
 pointer-events: none;
