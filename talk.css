@@ -39,6 +39,7 @@ body{
 user-select: none;
 background: var(--bg);
 color: var(--font);
+font-family: Arial;
 }
 img{
 pointer-events: none;
